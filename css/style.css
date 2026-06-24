@@ -1,0 +1,12 @@
+@import url('https://googleapis.com');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.footer-area{
+    background-color: #1a2848;
+    width: 100vw;
+    height: auto;
+}

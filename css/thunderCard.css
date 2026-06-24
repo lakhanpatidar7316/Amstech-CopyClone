@@ -1,0 +1,225 @@
+.cardside {
+    display: flex;
+    justify-content: center;
+    gap: 65px;
+    margin: 0 !important;
+}
+
+.cards {
+    width: 340px;
+    height: 295px;
+    padding: 10px 30px 30px 30px;
+    background: linear-gradient(180deg, hsl(212, 100%, 96%) 11%, hsl(245, 100%, 98%) 93%);
+}
+
+.cards img {
+    width: 50px;
+    height: 95px;
+    display: block;
+    margin-left: -25px;
+    /* move slightly left */
+    margin-top: -8px;
+}
+
+.cards h4 {
+    font-size: 18px;
+    font-weight: 500;
+    /* color: #183b6b; */
+    color: rgb(42, 70, 110);
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+#cards1 h4 {
+    margin-top: -10px;
+    margin-left: -30px;
+    margin-bottom: 20px;
+}
+
+#cards2 h4 {
+    margin-top: -10px;
+    margin-left: -65px;
+    margin-bottom: 20px;
+}
+
+#cards3 h4 {
+    margin-top: -10px;
+    margin-left: -40px;
+    margin-bottom: 20px;
+}
+
+#cards4 h4 {
+    margin-top: -10px;
+    margin-left: -75px;
+    margin-bottom: 20px;
+}
+
+#cards5 h4 {
+    margin-top: -10px;
+    margin-left: -150px;
+    margin-bottom: 20px;
+}
+
+.cards span {
+    display: block;
+    font-size: 16px;
+    line-height: 1.6;
+    /* color: #3b4b68; */
+    color: rgb(42, 70, 110);
+    text-align: left;
+    transition: transform .25s;
+    letter-spacing: 0.7px !important;
+}
+
+#second-row-card {
+    margin-top: 70px !important;
+}
+
+.cardsection {
+    margin-bottom: 102px;
+}
+
+/* seprator marquee gradiant */
+#gradiant-sep {
+    background: linear-gradient(43deg, #fc9842 0%, #fe5f75 50%, #fc9842 100%);
+}
+
+/* home verticals */
+.B-verticals {
+    height: 143px;
+    padding-top: 40px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+    color: rgb(42, 70, 110);
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.slider-tabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 30px;
+    margin-bottom: 75px;
+}
+
+.slider-tabs input {
+    display: none;
+}
+
+.tab-label {
+    border-radius: 40px;
+    cursor: pointer;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    transition: all 0.4s ease;
+}
+
+.tab-label h4 {
+    margin: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    /* position: relative;
+    top: 70px; */
+}
+.tabimg1 h4{
+    position: relative;
+    top: 65px;
+}
+.tabimg2 h4{
+    position: relative;
+    top: 130px;
+}
+.tabimg3 h4{
+    position: relative;
+    top: 50px;
+}
+.tabimg4 h4{
+    position: relative;
+    top: -20px;
+}
+.tabimg5 h4{
+    position: relative;
+    top: 75px;
+}
+/* Active Tab */
+input:checked+.tabimg1,
+input:checked+.tabimg3,
+input:checked+.tabimg5 {
+    width: 750px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+
+input:checked+.tabimg2,
+input:checked+.tabimg4 {
+    height: 640px !important;
+    width: 750px;
+    position: relative;
+    top: 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+}
+
+input:checked+.tab-label h4 {
+    writing-mode: horizontal-tb;
+    transform: none;
+    font-size: 28px;
+    position: relative;
+    top: 280px;
+}
+
+
+.tabimg1 {
+    width: 80px;
+    height: 640px;
+    background-image: url("../image/home-verticals-1.jpg");
+}
+
+.tabimg2 {
+    width: 80px;
+    height: 580px;
+    position: relative;
+    top: 30px;
+    background-image: url("../image/home-verticals-2.jpg");
+}
+
+.tabimg3 {
+    width: 80px;
+    height: 640px;
+    background-image: url("../image/home-verticals-3.jpg");
+}
+
+.tabimg4 {
+    width: 80px;
+    height: 580px;
+    position: relative;
+    top: 30px;
+    background-image: url("../image/home-verticals-4.jpg");
+}
+
+.tabimg5 {
+    width: 80px;
+    height: 640px;
+    background-image: url("../image/home-verticals-5.jpg");
+}
+
+.tabimg1,
+.tabimg2,
+.tabimg3,
+.tabimg4,
+.tabimg5 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

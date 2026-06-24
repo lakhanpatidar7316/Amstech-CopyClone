@@ -1,0 +1,204 @@
+*,::after, ::before {
+    box-sizing: border-box;
+}
+.navbar {
+    position: fixed;
+left: 0;
+top: 0;
+    z-index: 999;
+
+    height: 75px;
+    width: 100%;
+    background-color: #1A2848;
+    border-radius: 0px !important;
+    border: none;
+    margin-bottom: 0px !important;
+
+}
+.container-fluid{
+    display: flex !important;
+}
+.navbar-brand {
+    /* height: 76px; */
+    padding-left: 29px !important;
+    padding-top: 4px !important;
+}
+
+.navbar-brand img {
+    width: 83px !important;
+    /* margin-top: 0 !important; */
+}
+.navbar-brand,
+.navbar-brand:focus,
+.navbar-brand:active,
+.navbar-brand:hover {
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+.navbar-nav{
+    margin: 13px 83px;
+}
+.navbar-nav >li>a{
+    text-transform: uppercase;
+      /* color: #fff !important; */
+     letter-spacing: 0.25px !important;
+     font-weight: 110 !important;
+     margin-left: 18px;
+     /* font-family: poppins-light !important; */
+       font-family: 'poppins-bold', sans-serif !important;
+         cursor: pointer !important;
+           /* font-size: 6.3rem; */
+    line-height: 1.333;
+    margin-top: 0;
+    color: #FFFFFF !important;
+    text-align: center;
+}
+#First-ls{
+margin-left: 0px !important;
+}
+.navbar-nav li a:hover,
+.navbar-nav li a:focus,
+.navbar-nav li a:active {
+    color: #00C832 !important;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-decoration: none;
+}
+ .butontop{
+    /* display: inline-block !important; */
+    margin-top: 9px;
+    margin-left: -7.5px !important;
+ }
+.butontop span{
+ height: 32px !important;
+ /* width: 1px !important; */
+     border-left: 1px solid #A0A0A1 !important;
+
+ background-color: #c1c4ca;
+ display: inline-block !important;
+ position: relative;
+ top: 13px !important;
+}
+.butontop button{
+    margin-left:24px !important;
+    text-decoration: none !important;
+    height: 42.5px !important;
+    width: 178px !important;
+    text-transform: uppercase;
+    color: #F8FEFD;
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    background-color: #00C853;
+    border: none !important;
+}
+.butontop button:active{
+    background-color: transparent;
+    border: 1px solid white !important;
+}
+/* slider 1 */
+.carousel,
+#myCarousel {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+}
+
+ #myCarousel>.carousel-inner>.item>img {
+    width: 100%;
+    height: 672px;
+    /* adjust as needed */
+    object-fit: cover;
+    object-position: center bottom;
+}
+
+.saprator1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 0px !important;
+    height: 80px;
+    background: #091c85;
+    background: linear-gradient(90deg, rgba(9, 28, 133, 1) 0%, rgba(255, 109, 34, 1) 100%) !important;
+}
+
+.saprator1 p {
+    font-size: 20px !important;
+    color: white !important;
+    font-weight: 570 !important;
+    margin-bottom: 0;
+    letter-spacing: 0.5px !important;
+}
+
+.saprator1 button {
+    font-size: 16px;
+    font-weight: 600 !important;
+    text-transform: uppercase;
+    color: #0091ea !important;
+    height: 50px !important;
+    width: 200px !important;
+    border: none !important;
+    background-color: white;
+
+}
+  /* slider 2 */
+.midslider h1 {
+    /* margin-top: 50px !important; */
+    height: 165px !important;
+    padding-top: 75px !important;
+    font-size: 3.1em;
+    font-weight: 900 !important;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase;
+    color: #2a466e;
+}
+
+#myslider2 {
+    margin-top: 150px !important;
+    margin: 0 149.5px !important;
+    border-radius: 35px !important;
+    overflow: hidden;
+}
+
+#myslider2>.carousel-inner>.item>img {
+    border-radius: 35px !important;
+    height: 425px !important;
+    width: 1220px !important;
+    object-fit: cover;
+    object-position: center bottom;
+}
+.midstack{
+    margin-top: 70px !important;
+    margin-bottom: 70px !important;
+}
+.midstack a{
+    font-size: 24px !important; 
+    font-weight: 600 !important;
+    color: #00c853;
+    letter-spacing: 0.5px !important;
+    text-decoration: none !important;
+}
+/* Marquee saprator1 */
+.seprator2 marquee {
+    padding-top: 30px;
+    /* background-color: #209CFF; */
+    background: linear-gradient(90deg, #209cff 0%, #209cff 100%);
+    text-align: center;
+    color: white;
+    height: 80px !important;
+    width: 100% !important;
+    direction: left !important;
+    word-spacing: 4px !important;
+}
+
+.cardsection h1 {
+    height: 115px !important;
+    padding-top: 30px !important;
+    font-size: 52px;
+    font-weight: 750 !important;
+    line-height: 1.3em;
+    letter-spacing: 0.5px !important;
+    text-transform: uppercase;
+    color: #2a466e;
+}

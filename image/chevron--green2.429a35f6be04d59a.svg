@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+  <g id="chevron.double" transform="translate(48) rotate(90)">
+    <path id="矩形" d="M48,0V48H0V0Z" transform="translate(0 48) rotate(-90)" fill="none"/>
+    <path id="形状结合" d="M7.707,14.352,13.165,8,7.707,1.648,9.125,0,16,8,9.125,16ZM0,14.352,5.458,8,0,1.648,1.417,0,8.293,8,1.417,16Z" transform="translate(16 16)" fill="#68D06F"/>
+  </g>
+</svg>
