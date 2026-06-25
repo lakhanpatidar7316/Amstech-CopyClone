@@ -1,0 +1,259 @@
+.client-site-area{
+    margin:80px auto;
+}
+.client-site-area h1{
+font-size: 46px;
+font-weight: 800;
+color: #2A466E;
+margin-bottom: 30px;
+
+}
+.client-img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    row-gap:80px;
+    margin-bottom: 120px;
+}
+.client-img > div{
+    text-align:center;
+}
+.client-img img{
+    max-width:230px;
+    width:100%;
+    height:auto;
+}
+
+#dine-img img{
+    width: 140px;
+    height: auto;
+}
+
+#mp-img img{
+    width: 140px;
+    height: auto;
+}
+.client-site-area a{
+    font-weight: 700 !important;
+    color: #00C833;
+}
+.client-site-area a:hover,
+.client-site-area a:focus,
+.client-site-area a:active{
+    text-decoration: none;
+       border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+/* footer css start  */
+.row-center{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-area{
+    height:auto;
+    width: 100%;
+    background-color:#1a2848;
+    padding-top: 50px;
+}
+.sethh-ji p {
+     color: #00C833;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.office h1{
+    padding-top: 20px;
+    color: #00C833;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.office p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+.office span , .contact-div span{
+    color:#c1c4ca;
+    font-size: 18.2px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+}
+.office span  ,.contact-div span br {
+    padding-bottom: 5px;
+}
+.contact-div{
+    padding-top: 20px;
+}
+.contact-div a ,.mail-add a{
+  font-size: 18px;  
+  font-weight: 100;
+  color:  #00C833;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+.contact-div a:hover,
+.contact-div a:focus,
+.contact-div a:active{
+      border: none;
+    outline: none;
+    box-shadow: none;
+}
+.mail-add{
+    padding-top: 20px;
+     color:#c1c4ca;
+    font-size: 18.2px;
+    letter-spacing: 0.5px;
+    font-weight: 100;
+   
+}
+.mail-add a:hover,
+.mail-add a:focus,
+.mail-add a:active{
+      border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.column1::after{
+    content: "";
+    position: absolute;
+    top: 0;
+     right: 0px;    
+    width: .5px;
+    height: 95%;
+    background: white;
+}
+
+.column-2{
+/* padding-left: 60px !important; */
+}
+.nav-type a{
+     color: #00C833;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-type a:hover,
+.nav-type a:focus,
+.nav-type a:active
+{
+    text-decoration: underline;
+      border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+.tittle-address {
+    color: #c1c4ca;
+    font-size: 17px;
+     font-weight: normal;
+}
+.tittle-address1 a{
+    text-decoration: none;
+    color:#00c832;
+    font-size: 17px;
+}
+.tittle-address1 span{
+      color: #c1c4ca;
+       font-weight: normal;
+}
+
+.sub-nav-vertical a {
+    color: #c1c4ca;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 2.5;
+    
+}
+.tittle-address span{
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+h6{
+     
+    letter-spacing: .8px;
+    line-height: 1.55em;
+    text-align: left;
+}
+#mail{
+      color: #333;
+      font-size: 17px;
+}
+.logo img{
+    margin-top: 30px;
+margin-left: -90px;
+    height: 50px;
+    width: 100px;
+}
+
+.sethh{
+    margin-bottom: 20px;
+}
+.col-lg-4 h6{
+    margin-top: 20px;
+}
+.fourth-col{
+    margin-top: 40px;
+    gap: 40px;
+}
+.logo-section{
+    margin-left: 148px;
+    margin-top: 50px;
+    
+}
+
+.logo-section img{
+    height:48px; 
+    width:48px;
+    border-radius: 8px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.bottom{
+      background-color: #10182E;
+  
+}
+.b-row{
+   height: 100px;
+    width: 100%;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 80px;
+}
+.copy{
+    color: white;
+    display: flex;
+    font-size: 17px;
+    margin-left: -50px;
+}
+.policy{
+margin-left: 250px;
+    gap: 30px;
+    display: flex;
+    
+}
+.policy a{
+    font-size: 17px;
+    font-weight: normal;
+    text-decoration: underline;
+     color: #c1c4ca;
+    display: inline-block;
+    white-space: nowrap;
+}

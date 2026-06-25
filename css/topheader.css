@@ -142,6 +142,11 @@ margin-left: 0px !important;
     background-color: white;
 
 }
+.saprator1 button:hover{
+    background-color: transparent;
+    border: 2px solid black !important;
+    color: white !important;
+}
   /* slider 2 */
 .midslider h1 {
     /* margin-top: 50px !important; */
