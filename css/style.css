@@ -7,6 +7,29 @@ body {
 
 .footer-area{
     background-color: #1a2848;
-    width: 100vw;
+    width: 100%;
     height: auto;
+    padding-top: 50px;
+    padding-left: 135px;
+}
+.seth-ji{
+
+}
+.seth-ji p{
+    
+    color: #00C833;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+.office h1{
+    color: #00C833;
+    font-size: 24px;
+    font-weight: 500;
+}
+.office p{
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
 }
