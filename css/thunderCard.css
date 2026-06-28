@@ -223,3 +223,113 @@ input:checked+.tab-label h4 {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+/* Shap Your Future (Explore Now) Button */
+ .join-img-section{
+    height: 980px;
+    background: #ECF4FF;
+}
+
+.join-img-section .row{
+    display: flex;
+    align-items: center;
+}
+
+.join-today{
+    position: relative;
+    top: 18px;
+    left: 85px;
+    align-items: center;
+    
+}
+.join-today p{
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 1.3;
+    color: #1A2848;
+}
+
+.join-today button{
+    width:300px;
+    height:50px;
+    border:2px solid #00C853;
+    background:#fff;
+    color:#25CC6D;
+    font-weight:600;
+    margin-top:20px;
+    transition:.3s;
+}
+
+.join-today button:hover{
+    background:#00C853;
+    color:#fff;
+}
+
+.career-home{
+    overflow: hidden;
+    padding-top: 140px;
+    margin-left: 80px;
+    width: 100%;
+    height: 100%;
+    
+    position: relative;
+    clip-path: polygon(0 100%,100% 100%,100% 0, 25% 0, 0 85%);
+    z-index: 2;
+}
+
+.career-home img{
+    width:100% !important;
+    height:700px !important;
+    object-fit:cover ;
+    display:block;
+}
+
+/* Client Site Area Logo Images  */
+.client-site-area{
+    margin:80px auto;
+}
+.client-site-area h1{
+font-size: 46px;
+font-weight: 800;
+color: #2A466E;
+margin-bottom: 30px;
+
+}
+.client-img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items:center;
+    row-gap:80px;
+    margin-bottom: 120px;
+}
+.client-img > div{
+    text-align:center;
+}
+.client-img img{
+    max-width:230px;
+    width:100%;
+    height:auto;
+}
+
+#dine-img img{
+    width: 140px;
+    height: auto;
+}
+
+#mp-img img{
+    width: 140px;
+    height: auto;
+}
+.client-site-area a{
+    font-weight: 700 !important;
+    color: #00C833;
+}
+.client-site-area a:hover,
+.client-site-area a:focus,
+.client-site-area a:active{
+    text-decoration: none;
+       border: none;
+    outline: none;
+    box-shadow: none;
+}
